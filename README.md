@@ -1,9 +1,9 @@
-# Data Wrangling Project
+# Data Wrangling/ Text mining Project
 
 ## Introduction
-Real-world data rarely comes clean. Using Python and its libraries, I will gather data from a variety of sources and in a variety of formats, assess its quality and tidiness, then clean it. This is called data wrangling. I will document my wrangling efforts in a Jupyter Notebook, plus showcase them through analyses and visualizations using Python (and its libraries) and/or SQL.
+Real-world data rarely comes clean. Using Python and its libraries, I  gathered data from a variety of sources and in a variety of formats, assessed its quality and tidiness, then clean it. This is called data wrangling. I documented my wrangling efforts in a Jupyter Notebook, plus showcase them through analyses and visualizations using Python (and its libraries) and/or SQL.
 
-The dataset that i will be wrangling (and analyzing and visualizing) is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. These ratings almost always have a denominator of 10. The numerators, though? Almost always greater than 10. 11/10, 12/10, 13/10, etc. Why? Because "they're good dogs Brent." WeRateDogs has over 4 million followers and has received international media coverage.
+The dataset that I used in this wrangling project is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. These ratings almost always have a denominator of 10. The numerators, though? Almost always greater than 10. 11/10, 12/10, 13/10, etc. Why? Because "they're good dogs Brent." WeRateDogs has over 4 million followers and has received international media coverage.
 
 WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exclusively for me to use in this project. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017. More on this soon.
 
@@ -11,9 +11,9 @@ WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exc
 
 
 Project Steps Overview
-Your tasks in this project are as follows:
+Tasks in this project are as follows:
 
-Step 1: Gathering data
+Step 1: Gathering data from varieties of sources
 
 Step 2: Assessing data
 
@@ -33,7 +33,7 @@ Step 6: Reporting
 Poject goal: To wrangle WeRateDogs Twitter data to create interesting and trustworthy analyses and visualizations. The Twitter archive is great, but it only contains very basic tweet information. Additional gathering, then assessing and cleaning is required for "Wow!"-worthy analyses and visualizations.
 
 ### The Data
-In this project, I will work on the following three datasets.
+In this project, I worked on the following three datasets.
 
 #### Enhanced Twitter Archive
 
@@ -46,7 +46,7 @@ The data was extracted programmatically, but they didn't do a very good job. The
 
 #### Additional Data via the Twitter API
 
-Back to the basic-ness of Twitter archives: retweet count and favorite count are two of the notable column omissions. Fortunately, this additional data can be gathered by anyone from Twitter's API. Well, "anyone" who has access to data for the 3000 most recent tweets, at least. But you, because I aleady have the WeRateDogs Twitter archive and specifically the tweet IDs within it, can gather this data for all 5000+. And guess what? I am going to query Twitter's API to gather this valuable data.
+Back to the basic-ness of Twitter archives: retweet count and favorite count are two of the notable column omissions. Fortunately, this additional data can be gathered by anyone from Twitter's API. Well, "anyone" who has access to data for the 3000 most recent tweets, at least. I aleady have the WeRateDogs Twitter archive and specifically the tweet IDs within it, can gather this data for all 5000+. And guess what? I am going to query Twitter's API to gather this valuable data.
 
 #### Image Predictions File
 
